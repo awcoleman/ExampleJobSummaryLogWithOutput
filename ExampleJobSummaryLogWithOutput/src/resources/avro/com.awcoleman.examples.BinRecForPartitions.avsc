@@ -1,0 +1,13 @@
+{"namespace": "com.awcoleman.examples.avro",
+ "type": "record",
+ "name": "BinRecForPartitions",
+ "fields": [
+     {"name": "name", "type": "string"},
+	 {"name": "recid", "type": "long"},
+	 {"name": "eventType",  "type": "int"},
+     {"name": "eventDurationSec",  "type": "int"},
+     {"name": "endDatetime", "type": "string"},
+	 {"name": "endDate", "type": "string"},
+	 {"name": "endHour", "type": "int"}
+ ]
+}
